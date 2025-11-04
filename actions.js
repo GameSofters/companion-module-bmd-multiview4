@@ -52,6 +52,7 @@ module.exports = {
 					type: 'textinput',
 					label: 'Label',
 					id: 'label',
+					useVariables: {local: true}
 				},
 				{
 					type: 'dropdown',
