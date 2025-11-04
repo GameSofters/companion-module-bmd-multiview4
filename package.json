@@ -13,6 +13,7 @@
 	"homepage": "https://github.com/bitfocus/companion-module-bmd-multiview4#readme",
 	"main": "index.js",
 	"scripts": {
+		"build": "tsc",
 		"format": "prettier -w .",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
