@@ -14,8 +14,7 @@
 	"main": "index.js",
 	"scripts": {
 		"build": "tsc",
-		"format": "prettier -w .",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"format": "prettier -w ."
 	},
 	"author": "Per Røine <per.roine@gmail.com>",
 	"contributors": [
@@ -27,7 +26,8 @@
 	},
 	"prettier": "@companion-module/tools/.prettierrc.json",
 	"devDependencies": {
-		"@companion-module/tools": "^1.2.1"
+		"@companion-module/tools": "^1.2.1",
+		"typescript": "^5.9.3"
 	},
 	"license": "MIT",
 	"bugs": {
@@ -36,5 +36,6 @@
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/bitfocus/companion-module-bmd-multiview4.git"
-	}
+	},
+	"packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
